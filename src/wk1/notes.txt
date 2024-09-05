@@ -1,0 +1,71 @@
+Folders
+    C#
+        namespaces
+    Java
+        packages
+
+file extensions
+    C#
+        .cs
+    Java
+        .java
+
+Naming conventions
+    variables
+        C#
+            camelCase
+        Java
+            camelCase
+    classes
+        C#
+            PascalCase aka UpperCamelCase
+        Java
+            same
+    methods
+        C#
+            PascalCase aka UpperCamelCase
+        Java
+            camelCase
+
+Data Types
+    C#
+        string
+        int
+        double
+        float
+        bool
+        long
+        decimal
+        short
+        byte
+        char
+
+        unit
+        ulong
+        sbyte
+        ushort
+    Java
+        String
+        boolean
+
+        int
+        char
+        double
+        float
+        long
+        short
+        byte
+        NO Decimal data type
+        no unsigned data types
+
+Output
+    C#
+        Console.Write/WriteLine
+    Java
+        System.out.print/println
+Input
+    C#
+        Console.Read/ReadLine()
+    Java
+        create a Scanner object
+        use a Scanner object method to get a specified data type

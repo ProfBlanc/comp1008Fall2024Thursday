@@ -1,0 +1,21 @@
+Task 1
+-Create a new Class named Week1Task1
+-create main method in class
+-ask the user for 1 int number and 1 double number
+-output the sum, difference, product, quotient
+of these numbers
+
+Task 2
+Modify previous example: output the person age in
+days, months, weeks, hours, minutes * seconds
+
+Task 3
+Create a new Class named Week2Task3
+ask the user for a shopping budget
+ask the user three time for the product price that they bought
+output the sum of the 3 products the user bought
+*Bonus*: output whether or not user was under, over at equal to budget
+
+Task 4
+Ask the user for the radius of a circle
+Output the diameter & area of the circle
