@@ -1,0 +1,12 @@
+souf + tab
+    System.out.printf()
+        String formatting
+
+        Create a string. Within the string, insert placeholders
+
+            %d   = digit   = whole number  int, byte, long, etc
+            %d   = float   = decimal number  float double
+            %s   = string  = string
+
+    System.out.printf("Text with placehold", placeHolderValue1,
+    placeHolderValue2)

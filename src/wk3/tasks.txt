@@ -1,0 +1,29 @@
+Basic Tasks
+
+Task 1
+1) Generate a random number between 1 and 20
+2) Ask the user to guess a number.
+3) Determine if number is correct, too high, too low
+(Only one time)
+
+Task 2
+Modify task 1 so that user can guess a maximum of 5 times
+
+Task 3
+Modify task 1 so that user if forced to correctly guess
+Also, if user is too high or too low, tell the difference
+
+Task 4
+Blackjack game versus self.
+Randomly generate two number between 1 and 10.
+Tell/deal to the user their hand (output the sum of those two numbers)
+Continually ask user "hit" or "stay"
+    "hit": randomly generate another number between 1 and 10.
+            If the sum of user hand is higher than 21, game is over
+    "stay": game is over
+
+
+More Difficult
+Math Storm
+modify addition storm to display to user addtion, subtraction, mulitiplication and division equations
+
