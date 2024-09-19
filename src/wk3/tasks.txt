@@ -27,3 +27,16 @@ More Difficult
 Math Storm
 modify addition storm to display to user addtion, subtraction, mulitiplication and division equations
 
+PizzaOrder app
+Ask the user which size of pizza they want to order
+    only accept small, medium and large
+Ask how many toppings they want to order
+    non-negative number
+Ask the user how far they live from restaurant
+    non-negative number
+Calculate the total price
+    base pizza price = 5
+    $2 for each topping
+    $1.45/km charge for distance
+Output price with 13% and output the breakdown of
+    pizza + delivery + tax = grand total
