@@ -10,3 +10,14 @@ souf + tab
 
     System.out.printf("Text with placehold", placeHolderValue1,
     placeHolderValue2)
+
+
+Type-casting
+
+implicit
+    aka promotion
+    small to big
+
+explicit
+    aka demotion
+    big to small
