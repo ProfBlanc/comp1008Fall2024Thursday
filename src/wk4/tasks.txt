@@ -1,0 +1,15 @@
+Task 1
+Create a Phone class
+    attributes
+        color
+        ramSize
+        hddSize
+        resoluation
+        cameraPixels
+        numberOfCameras
+        batteryLife
+        batteryCapacity
+    at least 2 private, 1 protected, 1 public
+    code 2 getters and setters
+    for the 1 of the private attributes: limit the value of the attribute using a setter
+    for 1 of the private attributes. allow one of X amount of values using ArrayList using a setter

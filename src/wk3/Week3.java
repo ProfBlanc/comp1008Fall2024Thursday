@@ -21,7 +21,11 @@ public class Week3 {
 
         long c = b;
 
+
+
         short d = (short)b;
+            Integer i = 100;
+        boolean result = (i instanceof Integer);
 
         int e = 130;
         //byte -128                 0                       127

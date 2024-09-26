@@ -1,0 +1,65 @@
+java.lang => default package where language fundaments are found
+    System
+    int, double, etc
+    String
+    Object
+    object
+
+    automatically loaded
+
+
+ArrayList
+    like an array
+        dynamic: NOT fixes size
+    Syntax
+        ArrayList<data_type> nameOfVar = new ArrayList<>();
+
+    data_type
+        reference data type
+            int => Integer
+            primitive => capitalize first letter
+                byte    =>  Byte
+                double  =>  Double
+
+    use methods for all operation
+        add     .add(object value)
+        remove  .remove(int index)
+                .remove (object value)
+        get     .get()
+        insert  .add(int index, object value)
+        set     .set(int index, object new_value)
+
+
+Class:
+    a blueprint, template using to product an object/thing
+
+    class two major components
+        A: attributes aka characteristics aka look
+        A: actions aka behaviours aka what it does
+
+        Attributes: values that are customizable/differ from object to object
+                    variables
+                    states or status
+
+                    variables in a class  => instance variables
+
+        object = copy of the blueprint aka instance of blueprint
+
+        Actions: methods aka functions that describe what instance does
+                 evaluate one or many attributes
+
+    accessibility
+        public          anyone from anywhere has access (can see it)
+        protected       only accessibily inside same package
+        private         only available inside the class
+                        why private? enforce restrictions
+
+
+Getter and Setter
+    give access to an attribute that is otherwise inaccessible
+    private: NEED getter and setter
+    protected: Strongly consider getter and setter
+
+    special method
+        getInstanceVarName()
+        setInstanceVarName(newValue)
