@@ -6,7 +6,19 @@ public class Week4 {
 
     public static void main(String[] args) {
 
-        example2();
+        example3();
+
+    }
+    static void example3(){
+
+        Student ben = new Student("Ben", -5f, -20, Student.StudentStatus.PART_TIME);
+
+        System.out.println(ben.getGpa());
+        System.out.println(ben.getAge());
+
+        Student benny = Student.MatureFullTimeStudent("Benny", 50);
+        System.out.println(benny.getAge());
+        System.out.println(benny.status);
 
     }
     static void example2(){

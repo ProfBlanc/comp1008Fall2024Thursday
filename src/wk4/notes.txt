@@ -63,3 +63,53 @@ Getter and Setter
     special method
         getInstanceVarName()
         setInstanceVarName(newValue)
+
+enum
+    enumerable
+        preset list of options
+        drop-down list of values: need to select 1 value
+
+        array of constants
+
+enum NameOfEnum {Value1, Value2, ValueN}  //all in caps
+
+public NameOfEnum nameOfVar = NameOfEnum.Value1
+
+
+
+Constructor: a special method
+    no return data type
+    name = class name
+
+    call implicitly once when creating the object
+        new Class()   <=  constructor
+
+    call classes have a default constructor
+        all class inherit from Object class
+
+
+name: String
+age: int
+gpa: float
+status: StudentStatus
+________________
+
+name: String
+age: float
+gpa: float
+
+no-args
+S	F	F
+F	F	S
+F	S	F
+S
+F
+S	F
+F	S
+F	F
+
+
+
+factory method
+    method that generates a category of Student
+    returns an object of this class

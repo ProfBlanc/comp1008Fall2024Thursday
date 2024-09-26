@@ -4,7 +4,7 @@ Create a Phone class
         color
         ramSize
         hddSize
-        resoluation
+        resolution
         cameraPixels
         numberOfCameras
         batteryLife
