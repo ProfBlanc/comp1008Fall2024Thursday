@@ -1,0 +1,6 @@
+Unit Testing
+    What is unit testing
+        testing the output/behavour of a method
+            measurable
+    Why unit test
+        To ensure that the EXPECTED results ACTUALLY occur
