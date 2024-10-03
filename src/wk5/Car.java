@@ -40,8 +40,28 @@ public class Car {
         return isOldCar() && isBigCar() && (engineSize == EngineSizes.V10 || engineSize == EngineSizes.V12);
     }
     public Car(){}
-
+    public Car(String color, double weight, byte numDoors){
+        setColor(color);
+        setWeight(weight);
+        setNumDoors(numDoors);
+    }
     public Car(String color, double weight, byte numDoors, float wheelSize, EngineSizes engineSize, double mileage) {
+//        this.color = color;
+//        this.weight = weight;
+//        this.numDoors = numDoors;
+//        this.wheelSize = wheelSize;
+//        this.engineSize = engineSize;
+//        this.mileage = mileage;
+        setColor(color);
+        setWeight(weight);
+        setNumDoors(numDoors);
+        setWheelSize(wheelSize);
+        setEngineSize(engineSize);
+        setMileage(mileage);
+
+    }
+    public Car(String color, double weight, byte numDoors, float wheelSize,
+               String engineSize, double mileage) {
 //        this.color = color;
 //        this.weight = weight;
 //        this.numDoors = numDoors;
@@ -109,4 +129,51 @@ public class Car {
         if(mileage >= 0)
             this.mileage = mileage;
     }
+
+    public void setEngineSize(String engineSize){
+
+        switch (engineSize.toLowerCase()){
+
+            case "v3":
+                this.engineSize = EngineSizes.V3;
+                break;
+
+            case "v4":
+                this.engineSize = EngineSizes.V4;
+                break;
+            case "v6":
+                this.engineSize = EngineSizes.V6;
+                break;
+            case "v8":
+                this.engineSize = EngineSizes.V8;
+                break;
+            case "v10":
+                this.engineSize = EngineSizes.V10;
+                break;
+            case "v12":
+                this.engineSize = EngineSizes.V12;
+                break;
+
+        }
+
+    }
+
+    public void setEngineSizev2(String engineSize){
+
+        for(EngineSizes size : EngineSizes.values()){
+
+            if(size.toString().equals(engineSize.toUpperCase())){
+                this.engineSize = size;
+                return;
+            }
+        }
+        this.engineSize = EngineSizes.V4;
+    }
+
+    public void setEngineSizev3(String engineSize){
+
+        System.out.println(Enum.valueOf(Car.EngineSizes.class, engineSize));
+
+    }
+
 }
