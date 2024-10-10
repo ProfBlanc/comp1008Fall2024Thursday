@@ -1,0 +1,80 @@
+RegEx
+
+    Regular Expressions
+        advanced searching
+
+    Regular searching: if substring is contained in larger string
+
+    Symbols
+
+    shortcut regex's
+
+    \d      digits                          [0-9]
+    \w      words   alphnanumerical + _     [a-zA-Z0-9_]
+    \D      non-digit                       [^0-9]
+    \W      non-words
+    \s      space: \t  \r\n  \n
+    \S      non-space
+
+
+    Where to start search
+    default: anywhere in string
+
+    ^       start of string
+    $       end of the string
+
+
+    Grouping
+    () => priority / grouping
+    [] : range or contains
+
+    Repetition
+    {N}: exactly n time
+    {N,M} between N and M times
+    {N,} at least N times
+
+    *   repeats zero or more times
+    +   repeats one or more times
+    ?   repeats either 0 or 1 times (optional)
+
+    .   matches any single character
+            ???
+
+    \   escape: forget the regex meaning. take literal meaning
+
+    |   either or
+
+
+    \d{7,10}|\d{3}-?\d{3}-?[0-9]{4}
+
+
+    [\w\.]+[a-zA-Z0-9]@[\w\.]+\.[a-zA-Z]{2,}
+
+
+
+
+Exception
+    when program doesn't complete execution
+
+
+    Exception is Runtime error
+        Syntax
+        Logic
+
+How Exception
+    1) User Input
+    2) Conversion
+    3) Open Resources or Connecting
+
+Attempt (try) to code the statements
+catch the possible exception
+
+
+The Stack
+
+Organizational structure
+    LIFO: last in first out
+
+    Think: stack of plates
+
+    refers to methods that are called and executed
