@@ -1,0 +1,36 @@
+File Manipulation
+    Reading and writing content to the file system
+        FS = file systems = os = operating system
+why?
+    Persistent data
+        Database systems (
+            network based
+                CloudStorage, MySQl, MSSql, NoSQL, etc
+            file-based
+                sqlite3, .dat, data, .csv
+
+        File-based system
+            any file on your FS
+                files & dirs
+
+Java
+    io      input/output
+    nio     new input/output
+java.io, java.nio
+
+    bit/byte
+
+    Path
+        location of a file OR folder
+        of(path as a string)
+    File
+        one SPECIFIC file OR folder that a Path points to
+        CRUD
+            Create
+            Read/Open
+            Update/Edit
+            Delete
+    Files
+        provides many static methods to
+            CRUD
+            conveinnt actions of Path object (which points to a file or folder)

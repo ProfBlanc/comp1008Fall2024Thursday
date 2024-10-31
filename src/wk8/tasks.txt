@@ -1,0 +1,27 @@
+Create a Student Directory Listing
+
+GeorgianCollege
+    2024
+        fall
+            comp1008
+
+Ask the user for their school name
+    create school name directory inside of wk8 folder if not exist
+    if does exists: "Hey, I attend that school too"
+
+Ask the user for a year of study
+
+Ask the user for a semester of student
+
+append both values inside of school name directory
+
+
+
+Ask the user to enter a course code
+    create a folder inside of school name/ year / semester
+
+Continually ask the user to enter for a list of evaluations
+Once finished,
+    Ask user to enter their grades for those evaluations
+        Store the evaluation.txt inside of course code folder
+            content = grade received
