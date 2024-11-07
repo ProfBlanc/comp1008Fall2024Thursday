@@ -1,0 +1,79 @@
+Inheritance
+    creating a class BASED on another class
+
+
+OLD                         NEW
+
+
+base class                  derived class
+parent class                child
+super class                 sub class
+
+
+What is inherited?
+    all non-private instance variables are inherited
+        public, protected, package-private/default
+    all non-private methods are inherited
+        public protected, package-private-default
+    HOWEVER, only default constructor is inherited
+
+FAQ
+    Can I, my programming choose which instance variables I want to keep and discard in my subclass
+        ANS: NO. all non-private instance variables are inherited in subclass
+
+    Can I, the programmer, change the NAME of a previously existing instance variable of a super
+    class in my sub-class
+        Example: super class: String name
+                 in subclass: remove name and rename to String fullname
+         ANS: NO.
+
+     Can I change the bahaviour (method body) of a previously existing method (in super class)
+     in my sub class?
+        Overriding
+
+
+Java does not support multi-class inheritance
+    Liger (part Lion, part Tiger)
+
+Hiearchy inheritance
+    GrandParentClass            =>          ParentClass             =>          ChildClass
+
+    Indirect inheritance                     Direct Inhertiance
+
+Indirect access
+    instance variable
+
+
+
+Object                Animal                  Dog             Wolf
+
+                                              Lion
+
+
+
+
+Human
+        name: String public
+        age: int private
+        height: double protected
+
+        2 constructors: default + 3-args
+        toString: summarize 3 args
+        jump: String
+        fight: string
+
+
+
+SuperHero is a Human, but with more features
+    BASED on Human
+        heroName: String
+        power: String
+        enemy: String
+        strikePower: double
+
+        3 constructors: base, 3-arg, 7-args (Human+SuperHero)
+        override jump
+        overload jump
+        override fight
+        toString: summarize 7 instance variables of SuperHero
+

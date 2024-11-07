@@ -1,0 +1,23 @@
+Task 1
+    Create a class named Animal
+        name: String public
+        weight: double private
+
+        toString: summarizes two instance variables
+        2 constructors; default + 2-args
+        1 pair of getter and setter
+        1 method: strike: String
+        1 method: isHungry: boolean
+
+Task 2
+    Create a class named Lion
+        prey: String public
+        number of teeth: int
+    override strike and isHungry methods
+    override toString method
+    create a new method
+
+Task 3
+    Create an instance of Animal with all args constructors
+        output the result of all methods
+    Do the same thing for Lion class
