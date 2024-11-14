@@ -1,0 +1,21 @@
+You have the following entities
+
+Professor
+PublicSpeaker
+Politician
+CommunicationSkills
+
+Task 1:
+    determine which entities should be
+    Abstract Class, Concrete Class, Interface
+
+Task 2:
+    create each entity:
+    for concrete class
+        create 2 constructors, 1 new instance variable,
+                1 method
+    for abstract class
+        create 2 constructors, 1 instance variable
+        1 method, 1 abstract method
+    for interface
+        create 2 constants, 2 method declarations

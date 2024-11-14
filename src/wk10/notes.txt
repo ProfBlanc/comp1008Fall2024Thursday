@@ -1,0 +1,60 @@
+Polymorphism
+    Poly: many, multiple
+    morphism: forms, shapes
+
+    Overloading
+    Overriding
+
+Object: original
+        based on another class
+
+Class exists only as a component of another class
+
+    internal components
+        abstract classes
+            dedicated super class
+            cannot be instantiated
+            incomplete
+                because it needs something else to complete
+            have the same features as concrete classes
+                methods, instance variables, constants, constructors
+            ADDITIONAL feature of abstract method
+                method that exits but doesn't have a default implementation
+
+            used to categorize various objects (concrete objects)
+
+        Examples
+            Shape
+                another that has area of volume
+                methods
+                    area, perimeter
+                        volume
+    external components
+        interface
+            all public entities
+            list of requirements
+                methods that need to be implemented
+                    is no default implementation of these methods
+                outline how user interacts with entity
+            features include: constant values & method declarations
+
+Prof: State object
+Student: Determine if object should be Concrete Class, Abstract Class or Interface
+
+Hints: q1) Does object function by itself?
+            Y: Concrete Class
+            N: Object is functionally a component of another object
+        q2) Is component Internal or External
+            Internal: Abstract Class
+            External: Interface
+
+
+Human       C
+Heart       A
+Hair        I
+
+
+House                   C
+Home                    A            maybe C
+Apartment 101           A            maybe C
+Door                    I
